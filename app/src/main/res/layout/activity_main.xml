@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zadanie 2"
+        android:onClick="doAktywosci2"/>
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zadanie 3 Obrazki"
+        android:onClick="doAktywnosciObrazek"
+        />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zadanie 4 Quiz"
+        android:onClick="doQuizStart"/>
+    <Button
+        android:id="@+id/button6.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zadanie 5"
+        android:onClick="doAktywnosci5"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zadanie 6"
+        android:onClick="doAktywnosci6"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zadanie 7"
+        android:onClick="doAktywnosci7"/>
+
+</LinearLayout>

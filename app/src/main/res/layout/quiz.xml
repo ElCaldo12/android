@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66CDAA">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:weightSum="1">
+
+
+
+            <TextView
+                android:textSize="80px"
+                android:textColor="#f000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Co to za samochod?"
+                android:textAlignment="center" />
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/mercedestgla200"
+                android:layout_gravity="center"
+                android:tag="Mercedes"
+                android:layout_height="297dp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioButton2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="punkt"
+                            android:text="gla 200" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="sl 500" />
+
+                </RadioGroup>
+
+
+
+
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:src="@drawable/bmwm7"
+                android:layout_gravity="center"
+                android:tag="BMW"
+                android:layout_height="match_parent" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioButton10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="M3" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="punkt"
+                            android:text="M7" />
+
+                </RadioGroup>
+
+
+
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:src="@drawable/porsche911"
+                android:layout_gravity="center"
+                android:tag="Porsche"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioButton20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="punkt"
+                            android:text="911" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="panamera" />
+
+                </RadioGroup>
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:src="@drawable/italia"
+                android:layout_gravity="center"
+                android:tag="Ferrari"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioButton30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="458" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="punkt"
+                            android:text="Italia" />
+
+                </RadioGroup>
+
+
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:src="@drawable/grandturissmo"
+                android:layout_gravity="center"
+                android:tag="Maserati"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioButton40"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="punkt"
+                            android:text="gran turismo" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="quattroporte" />
+
+                </RadioGroup>
+
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ilosc punktow"
+                    android:onClick="Punkty"/>
+
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Reset"
+                    android:onClick="odNowa"/>
+
+                <Button
+                    android:id="@+id/button3"
+                    android:onClick="Powrot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Wróć"/>
+
+
+
+    </TableLayout>
+
+</ScrollView>

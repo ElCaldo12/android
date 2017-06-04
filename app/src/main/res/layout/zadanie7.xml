@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Dyktafon"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView5" />
+
+
+
+
+        <Button
+            android:id="@+id/nagraj"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Nagraj"
+            android:onClick="zapis"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/textView5"
+            android:layout_alignEnd="@+id/textView5"
+            android:layout_marginRight="43dp"
+            android:layout_marginEnd="43dp" />
+
+        <Button
+            android:id="@+id/btnSTOP"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="stop"
+            android:onClick="stopRec"
+            android:layout_alignBaseline="@+id/nagraj"
+            android:layout_alignBottom="@+id/nagraj"
+            android:layout_toRightOf="@+id/btnPLAY"
+            android:layout_toEndOf="@+id/btnPLAY"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp" />
+
+
+
+        <Button
+            android:id="@+id/btnPLAY"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Odtwórz"
+            android:onClick="playRec"
+            android:layout_below="@+id/nagraj"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp" />
+
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="powrot"
+        android:text="powrot"
+        android:layout_gravity="center"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp" />
+
+</RelativeLayout>
